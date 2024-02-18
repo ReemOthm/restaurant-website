@@ -63,6 +63,11 @@ body {
     margin: 0;
 }
 
+h2{
+    font-size: var(--size-800);
+    text-transform: capitalize;
+}
+
 /* Make images easier to work with */
 img,
 picture,
