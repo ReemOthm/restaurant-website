@@ -178,6 +178,7 @@ body {
 @media screen and (max-width: 767px){
     .hero-container{
         margin: 0;
+        border-radius: 0;
     }
 }
 /* End Hero Section */
