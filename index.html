@@ -1,87 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cairo"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Resturant Page</title>
-    <!-- star -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
-        <div class="navbar-logo">
-          Catchy <i class="fa-solid fa-pizza-slice"></i>
-        </div>
-        <nav class="navbar-menu">
-          <ul class="navbar-list">
-            <li><a href="#top">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="navbar-icons">
-          <i class="fa-brands fa-facebook" id="facebook"></i>
-          <i class="fa-brands fa-instagram" id="insta"></i>
-          <i class="fa-brands fa-x-twitter" id="twitter"></i>
-          <i class="fa-solid fa-bars" id="options"></i>
-        </div>
-      </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        <title>Resturant Page</title>
+        <!-- star -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+            
+        <header>
+            <div class="navbar">
+                <div class="navbar-logo">
+                    Catchy <i class="fa-solid fa-pizza-slice"></i>
+                </div>
+                <nav class="navbar-menu">
+                    <ul class="navbar-list">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="navbar-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-container ">
+                <div class="hero-content">
+                    <h1 class="hero__title">The Catchy Pizza</h1>
+                    <p class="hero__description">
+                        Lorem ipsum dolor, Cupiditate dolores autem officiis, ullam corrupti sequi! Quos perspiciatis animi vitae atque recusm id quia veniam inventore magni!
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn cta-button-black" role="button">Reservation</button>
+                        <button class="btn cta-button-black" role="button">Menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="hero">
-      <div class="hero-container">
-        <div class="hero-content">
-          <h1 class="hero__title">The Catchy Pizza</h1>
-          <p class="hero__description">
-            Lorem ipsum dolor, Cupiditate dolores autem officiis, ullam corrupti
-            sequi! Quos perspiciatis animi vitae atque recusm id quia veniam
-            inventore magni!
-          </p>
-          <div class="hero-buttons">
-            <button class="btn cta-button-black" role="button">
-              Reservation
-            </button>
-            <button class="btn cta-button-black" role="button">Menu</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
-          blanditiis provident delectus, aut at, soluta fugiat architecto
-          accusamus vel ad, laudantium unde ipsum excepturi sunt earum? Aliquam
-          voluptatibus id et! Cumque modiuas doloribus. Corrupti assumenda atque
-          modi expedita? Atque eveniet nam rerum suscipit explicabo ipsam en.
-          Rerum ut, officia voluptas expedita repellendus iure quisquam ratione,
-          facilis, hic maiores molestiae officiis deserunt aliquid dolorum quis.
-        </p>
-      </div>
-    </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis provident delectus, aut at, soluta fugiat architecto accusamus vel ad, laudantium unde ipsum excepturi sunt earum? Aliquam voluptatibus id et!
+                Cumque modiuas doloribus. Corrupti assumenda atque modi expedita?
+                Atque eveniet ta repellendus iure quisquam ratione, facilis, hic maiores molestiae officiis deserunt aliquid dolorum quis.
+            </p>            
+            </div>
+            <button class="btn">Read More</button>
+        </section>  
 
     <section class="menu-section" id="menu">
       <section class="container flow">
@@ -167,24 +145,23 @@
             >
           </div>
 
-          <!-- Add more menu items here -->
-        </div>
-        <button class="btn btn-primary show-more-btn" type="button">
-          Show More Dishes
-        </button>
-      </section>
-    </section>
+                    <!-- Add more menu items here -->
+                </div>
+                <button class="btn btn-primary show-more-btn" type="button">Show More Dishes</button>
+            </section>
+        </section>
 
-    <!-- testimonials -->
-    <section class="testimonials" id="testimonials">
+     
+        <!-- testimonials -->
+        <section class="testimonials" id="testimonials">
             <h2 class="section__title">customer reviews</h2>
             <div class="container">
                 <div class="grid">
                 <div class="card_testimonials">
-                    <div class="">
+              
                         <svg xmlns="http://www.w3.org/2000/svg" class="Quotation" viewBox="0 0 448 512">
                             <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
-                        </div>
+                      
                     <div class="card_title">
                     <h3>Ahmad</h3>
                     <div class="star">
@@ -204,10 +181,10 @@
         
             
                 <div class="card_testimonials">
-                <div class="container">
+          
                     <svg xmlns="http://www.w3.org/2000/svg" class="Quotation" viewBox="0 0 448 512">
                     <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
-                </div>
+                
                 <div class="card_title">
                     <h3>hind</h3>
                     <div class="star">
@@ -226,10 +203,10 @@
                 </div>
             
             <div class="card_testimonials">
-                <div class="container">
+                
                 <svg xmlns="http://www.w3.org/2000/svg" class="Quotation" viewBox="0 0 448 512">
                     <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
-                </div>        
+                     
                 <div class="card_title">
                 <h3>lana</h3>
                 <div class="star">
