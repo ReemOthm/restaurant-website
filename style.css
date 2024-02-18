@@ -4,8 +4,9 @@
     --font-btn: ;
     --font-padding: ;
     --section-padding: ;
+    --btn-bg: #c38450;
     --white-color: white;
-    --hover-bg: #6d9d9d;
+    --hover-bg: #df985c;
 }
 
 * {
@@ -64,6 +65,7 @@ body {
     color: var(--main-color);
     font-size: 0.7em;
     padding: 0.6em 1.4em;
+    background-color: var(--btn-bg);
 }
 
 .btn:hover,
@@ -97,6 +99,11 @@ body {
     display: flex;
     gap: 40px;
     font-size: 1em;
+}
+
+.navbar-list > li > a:hover{
+    background-color: var(--btn-bg);
+    color: white;
 }
 .navbar-icons {
     display: flex;
@@ -258,10 +265,11 @@ body {
  
 .testimonials{
     background: #f8f9fa;
-    padding: 6rem 0;
+    padding: 1rem 0 3rem;
     border-bottom: 1px solid #dee2e6;
     text-align: center;
     color: #333;
+    margin-top: 1rem;
 }
 
 
@@ -270,6 +278,8 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));/* see notes below */
     grid-auto-rows:auto;
     grid-gap: 2rem;
+    margin-top: 2em;
+    padding-bottom: 2em;
 }
 
 .checked {
@@ -446,7 +456,8 @@ i:hover{
   
   /* Start Footer */
   footer{
-      background-color: var(--clr-ntural-900);
+      background-color: #222;
+      color: white;
   }
 
 #footer {
@@ -457,6 +468,7 @@ i:hover{
   justify-content: center;
   gap: var(--size-600);
   color: var(--clr-ntural-100);
+  font-size: .8em;
 }
 #footer__address {
   text-align: center;
@@ -475,4 +487,10 @@ i:hover{
 
 p{
     font-size: 20px;
+}
+#footer__rights{
+    text-align: center;
+    border-top: 1px solid white;
+    padding: .5em;
+    font-size: .8em;
 }
