@@ -1,50 +1,189 @@
-:root{
-    --main-color: #222;
-    --main-bg: #eee;
+:root {
+  --clr-primary-400: ;
+  --clr-primary-900: ;
+
+  --clr-accent-200: ;
+  --clr-accent-400: ;
+  --clr-accent-600: ;
+  --clr-accent-900: ;
+
+  --clr-ntural-900: hsl(0, 0%, 0%);
+  --clr-ntural-100: hsl(0, 0%, 100%);
+
+  --ff-primary: ;
+  --ff-secondary: ;
+  --ff-accent: ;
+
+  --font-w-n: 400;
+  --font-w-m: 500;
+  --font-w-b: 700;
+
+  --font-size-100: 1rem; /* 16px */
+  --font-size-200: 1.125rem; /* 18px */
+  --font-size-300: 1.313rem; /* 21px */
+  --font-size-400: 1.75rem; /* 28px */
+  --font-size-500: 2.25rem; /* 36px */
+  --font-size-600: 3.375rem; /* 54px */
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+  --ff-btn: var(--ff-accent);
+
+  --fs-primary-heading: var(--fs-600);
+  --fs-secondary-heading: var(--fs-500);
+  --fs-third-heading: var(--fs-300);
+  --fs-body: var(--fs-200);
+  --fs-nav: var(--fs-100);
+  --fs-btn: var(--fs-100);
+
+  --size-100: 0.25rem; /* 4px */
+  --size-200: 0.5rem; /* 8px */
+  --size-300: 0.75rem; /* 12px */
+  --size-400: 1rem; /* 16px */
+  --size-500: 1.25rem; /* 20px */
+  --size-600: 1.5rem; /* 24px */
+  --size-700: 2rem; /* 32px */
+  --size-800: 3rem; /* 48px */
+  --size-900: 4rem; /* 64px */
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
-    display: block;
+a {
+  text-decoration: none;
+  display: block;
 }
 
-body{
-    padding: 0;
-    margin: 0;
+body {
+  padding: 0;
+  margin: 0;
 }
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/*Global style*/
 
 /*Start Page Container  */
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (min-width: 768px){
-    .container{
-        width: 750px;
-    }
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-900);
+  background-color: var(--clr-ntural-100);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: var(--fs-primary-heading);
+  color: var(--clr-accent-400);
+  font-weight: var(--fw-b);
 }
 
-@media screen and (min-width: 992px){
-    .container{
-        width: 970px;
-    }
+h2 {
+  font-size: var(--fs-secondary-heading);
+  font-weight: var(--fw-b);
+  color: var(--clr-accent-600);
+  color: var();
 }
 
-@media screen and (min-width: 1200px){
-    .container{
-        width: 1170px;
-    }
+h3 {
+  font-size: var(--fs-third-heading);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-heading);
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*___________  boutton ___________*/
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  color: var(--clr-accent-400);
+  font-weight: var(--fw-n);
+  font-size: var(--fs-btn);
+  font-family: var(--ff-btn);
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  border: 0;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.cta-button {
+  padding: 0.5em 2em;
+  background-color: var(--clr-ntural-100);
+  box-shadow: 0em 0.875em 0.8125em -0.625em rgba(0, 0, 0, 0.44);
+}
+
+.cta-button:hover,
+.cta-button:focus-visible {
+  background-color: var(--clr-accent-400);
+  color: var(--clr-ntural-100);
+}
+
+.btn-primary {
+  padding: 0.5em 0.5em;
+  margin: 10 0rem;
+
+  background-color: var(--clr-ntural-100);
+  border: 1px solid var(--clr-accent-400);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background-color: var(--clr-primary-400);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 /*End Page Container  */
 
