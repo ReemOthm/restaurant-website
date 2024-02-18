@@ -90,22 +90,6 @@ body {
   background-color: var(--clr-ntural-100);
   background-repeat: no-repeat;
 }
-h1 {
-  font-size: var(--fs-primary-heading);
-  color: var(--clr-accent-400);
-  font-weight: var(--fw-b);
-}
-
-h2 {
-  font-size: var(--fs-secondary-heading);
-  font-weight: var(--fw-b);
-  color: var(--clr-accent-600);
-  color: var();
-}
-
-h3 {
-  font-size: var(--fs-third-heading);
-}
 
 h1,
 h2,
@@ -121,11 +105,27 @@ a {
   text-decoration: none;
 }
 
+.flow * + * {
+  margin-top: var(--size-200);
+}
+
+.padding-block-900 {
+  padding: var(--size-900);
+}
+
+.container {
+  --max-width: 1292px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
+
 /*___________  boutton ___________*/
 
 .btn {
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   cursor: pointer;
   border-radius: 5px;
   border: 0;
@@ -196,5 +196,52 @@ a {
 /* End Hero Section */
 
 /* Start Menu Section */
+.menu-section {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.menu-section h2 {
+  text-transform: uppercase;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu-item-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.menu-item-description {
+  margin-top: 5px;
+  color: #555;
+}
+
+.menu-item-price {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.menu-item {
+  text-align: center;
+}
 
 /* End Menu Section */
