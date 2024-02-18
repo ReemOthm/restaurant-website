@@ -1,5 +1,6 @@
 :root{
-
+    --main-color: #222;
+    --main-bg: #eee;
 }
 
 *{
@@ -19,12 +20,42 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/*Start Page Container  */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/*End Page Container  */
+
 /* Start Header */
 
 /* End Header */
 
 /* Start Hero Section */
-.hero{
-    height: 100vh;
-}
+
 /* End Hero Section */
+
+/* Start Menu Section */
+
+/* End Menu Section */
