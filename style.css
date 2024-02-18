@@ -186,8 +186,13 @@ body {
 /* Start About section */
 .about{
     text-align: center;
-    margin: auto;
     word-break: break-all;
+    margin-bottom: 3rem;
+}
+
+.about p{
+    width: 80%;
+    margin:  1rem auto;
 }
 /* End About section */
 
