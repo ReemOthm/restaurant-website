@@ -155,6 +155,18 @@ a {
   color: var(--clr-ntural-100);
 }
 
+.cta-button-black {
+  padding: 0.5em 2em;
+  background-color: var(--clr-ntural-900);
+  box-shadow: 0em 0.875em 0.8125em -0.625em rgba(0, 0, 0, 0.44);
+}
+
+.cta-button-black:hover,
+.cta-button-black:focus-visible {
+  background-color: var(--clr-accent-400);
+  color: var(--clr-ntural-100);
+}
+
 .btn-primary {
   padding: 0.5em 0.5em;
   margin: 10 0rem;
@@ -192,7 +204,80 @@ a {
 /* End Header */
 
 /* Start Hero Section */
+.hero{
 
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    color: var(--clr-ntural-100);
+    border-radius: 20px;
+    background-image: url('./images/landing-image.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
+    height: 80vh;
+    position: relative;
+}
+
+
+.hero-content{
+    align-self: center;
+    position: relative;
+}
+
+.hero__title{
+    font-size: var(--font-size-600);
+}
+
+.hero__description{
+    font-size: 1.3em;
+    width: 45%;
+    margin-bottom: var(--size-900);
+}
+
+.hero-buttons{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.hero__btn{
+    padding: 1em;
+    border-radius: 6px;
+    border: none;
+}
+
+.hero__btn:hover{
+    background-color: red;
+}
+
+/* Start Hero Media */
+@media screen and (max-width: 991px) {
+    .hero-container::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background-color: #0000007a;
+        border-radius: inherit;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero__title{
+        font-size: var(--font-size-400);
+    }
+    .hero__description{
+        width: 100%;
+        font-size: var(--font-size-300);
+    }
+    .hero-buttons{
+        margin: auto;
+    }
+}
 /* End Hero Section */
 
 /* Start Menu Section */
