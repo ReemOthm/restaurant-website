@@ -35,19 +35,19 @@ body {
     margin-right: auto;
 }
 
-@media screen and (min-width: 768px){
+@media (min-width: 768px){
     .container{
         width: 750px;
     }
 }
 
-@media screen and (min-width: 992px){
+@media (min-width: 992px){
     .container{
         width: 970px;
     }
 }
 
-@media screen and (min-width: 1200px){
+@media (min-width: 1200px){
     .container{
         width: 1170px;
     }
@@ -62,8 +62,8 @@ body {
     border-radius: 5px;
     border: 0;
     color: var(--main-color);
-    font-size: var(--font-btn);
-    padding: 0.4em 1em;
+    font-size: 0.7em;
+    padding: 0.4em 1.4em;
 }
 
 .btn:hover,
@@ -106,22 +106,18 @@ body {
 /* End Header */
 
 /* Start Hero Section */
-.hero{
-    overflow: hidden;
-    
-}
+
 .hero-container{
-    display: flex;
-    align-items: center;
-    color: var(--clr-ntural-100);
+    height: 80vh;
     border-radius: 20px;
     background-image: url('./images/landing-image.jpg');
     background-position: center;
     background-size: cover;
     padding: 2em;
-    height: 80vh;
     margin: 0 2rem;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .hero-content{
@@ -138,13 +134,15 @@ body {
 .hero__description{
     font-size: 0.8em;
     width: 45%;
+    line-height: 1.6;
 }
 
 .hero-buttons{
     display: flex;
     color: #000;
     width: 400px;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
 }
 
 /* Start Hero Media */
@@ -155,6 +153,7 @@ body {
         height: 100%;
         position: absolute;
         left: 0;
+        top: 0;
         background-color: #0000007a;
         border-radius: inherit;
     }
@@ -162,11 +161,12 @@ body {
         text-align: center;
     }
     .hero__title{
-        font-size: '';
+        font-size: 2rem;
     }
     .hero__description{
-        width: 100%;
-        font-size: '';
+        width: 80%;
+        margin: 1.5rem auto;
+        font-size: 0.7em;
     }
     .hero-buttons{
         margin: auto;
@@ -177,7 +177,6 @@ body {
 /* Start About section */
 .about{
     text-align: center;
-    width: 70%;
     margin: auto;
     word-break: break-all;
 }
