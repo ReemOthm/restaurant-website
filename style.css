@@ -188,7 +188,25 @@ a {
 /*End Page Container  */
 
 /* Start Header */
-
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-ntural-100);
+  padding: var(--size-400);
+}
+#navbar__left {
+  margin-left: var(--size-800);
+  font-family: fantasy, sans-serif;
+}
+#navbar__center {
+  display: flex;
+  gap: var(--size-900);
+}
+#navbar__right {
+  display: flex;
+  gap: var(--size-300);
+  margin-right: var(--size-900);
+}
 /* End Header */
 
 /* Start Hero Section */
@@ -198,3 +216,28 @@ a {
 /* Start Menu Section */
 
 /* End Menu Section */
+#footer {
+  padding: var(--size-400);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--size-600);
+  background-color: var(--clr-ntural-900);
+  color: var(--clr-ntural-100);
+}
+#footer__address {
+  text-align: center;
+}
+#footer__list {
+  display: flex;
+  gap: var(--size-900);
+}
+#footer__list a {
+  color: var(--clr-ntural-100);
+}
+#footer__media {
+  display: flex;
+  gap: var(--size-400);
+}
