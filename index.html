@@ -1,128 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
-        <title>Resturant Page</title>
-        <!-- star -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-            
-        <header>
-            <div class="navbar">
-                <div class="navbar-logo">
-                    Catchy <i class="fa-solid fa-pizza-slice"></i>
-                </div>
-                <nav class="navbar-menu">
-                    <ul class="navbar-list">
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="navbar-icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                </div>
-            </div>
-        </header>
-        
-        <section class="hero">
-            <div class="hero-container ">
-                <div class="hero-content">
-                    <h1 class="hero__title">The Catchy Pizza</h1>
-                    <p class="hero__description">
-                        Lorem ipsum dolor, Cupiditate dolores autem officiis, ullam corrupti sequi! Quos perspiciatis animi vitae atque recusm id quia veniam inventore magni!
-                    </p>
-                    <div class="hero-buttons">
-                        <button class="btn cta-button-black" role="button">Reservation</button>
-                        <button class="btn cta-button-black" role="button">Menu</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cairo"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Resturant Page</title>
+    <!-- star -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar-logo">
+          Catchy <i class="fa-solid fa-pizza-slice"></i>
+        </div>
+        <nav class="navbar-menu">
+          <ul class="navbar-list">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="navbar-icons">
+          <i class="fa-brands fa-facebook" id="facebook"></i>
+          <i class="fa-brands fa-instagram" id="insta"></i>
+          <i class="fa-brands fa-x-twitter" id="twitter"></i>
+          <i class="fa-solid fa-bars" id="options"></i>
+        </div>
+      </div>
+    </header>
 
-        <section class="about" id="about">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis provident delectus, aut at, soluta fugiat architecto accusamus vel ad, laudantium unde ipsum excepturi sunt earum? Aliquam voluptatibus id et!
-                Cumque modiuas doloribus. Corrupti assumenda atque modi expedita?
-                Atque eveniet nam rerum suscipit explicabo ipsam en. Rerum ut, officia voluptas expedita repellendus iure quisquam ratione, facilis, hic maiores molestiae officiis deserunt aliquid dolorum quis.</p>            
-            </div>
-        </section>  
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero__title">The Catchy Pizza</h1>
+          <p class="hero__description">
+            Lorem ipsum dolor, Cupiditate dolores autem officiis, ullam corrupti
+            sequi! Quos perspiciatis animi vitae atque recusm id quia veniam
+            inventore magni!
+          </p>
+          <div class="hero-buttons">
+            <button class="btn cta-button-black" role="button">
+              Reservation
+            </button>
+            <button class="btn cta-button-black" role="button">Menu</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="menu-section" id="menu">
-            <section class="container flow">
-                <h2 class="section__title">Our Menu</h2>
-                <div class="menu-items grid">
-                    <div class="menu-item flow">
-                        <img src="/src/images/pasta-bolognese.png" alt="Pasta Bolognese" class="menu-item-image">
-                        <h3 class="menu-item-title">Pasta Bolognese</h3>
-                        <p class="menu-item-description">Delicious pasta served with savory Bolognese sauce.</p>
-                        <span class="menu-item-price">$10.99</span>
-                        <a href="#" class="btn btn-primary add-btn " role="button">Order Now</a>
-                    </div>
-                    <div class="menu-item flow">
-                        <img src="/src/images/pasta-bolognese.png" alt="Pasta Bolognese" class="menu-item-image">
-                        <h3 class="menu-item-title">Pasta Bolognese</h3>
-                        <p class="menu-item-description">Delicious pasta served with savory Bolognese sauce.</p>
-                        <span class="menu-item-price">$10.99</span>
-                        <a href="#" class="btn btn-primary add-btn " role="button">Order Now</a>
-                    </div>
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea
+          blanditiis provident delectus, aut at, soluta fugiat architecto
+          accusamus vel ad, laudantium unde ipsum excepturi sunt earum? Aliquam
+          voluptatibus id et! Cumque modiuas doloribus. Corrupti assumenda atque
+          modi expedita? Atque eveniet nam rerum suscipit explicabo ipsam en.
+          Rerum ut, officia voluptas expedita repellendus iure quisquam ratione,
+          facilis, hic maiores molestiae officiis deserunt aliquid dolorum quis.
+        </p>
+      </div>
+    </section>
 
-                    <div class="menu-item flow">
-                        <img src="/src/images/Rissoto.png" alt="Risotto" class="menu-item-image">
-                        <h3 class="menu-item-title">Risotto</h3>
-                        <p class="menu-item-description">Creamy and flavorful risotto cooked to perfection.</p>
-                        <span class="menu-item-price">$12.99</span>
-                        <a href="#" class="btn btn-primary add-btn " role="button">Order Now</a>
+    <section class="menu-section" id="menu">
+      <section class="container flow">
+        <h2 class="section__title">Our Menu</h2>
+        <div class="menu-items grid">
+          <div class="menu-item flow">
+            <img
+              src="/src/images/pasta-bolognese.png"
+              alt="Pasta Bolognese"
+              class="menu-item-image"
+            />
+            <h3 class="menu-item-title">Pasta Bolognese</h3>
+            <p class="menu-item-description">
+              Delicious pasta served with savory Bolognese sauce.
+            </p>
+            <span class="menu-item-price">$10.99</span>
+            <a href="#" class="btn btn-primary add-btn" role="button"
+              >Order Now</a
+            >
+          </div>
+          <div class="menu-item flow">
+            <img
+              src="/src/images/pasta-bolognese.png"
+              alt="Pasta Bolognese"
+              class="menu-item-image"
+            />
+            <h3 class="menu-item-title">Pasta Bolognese</h3>
+            <p class="menu-item-description">
+              Delicious pasta served with savory Bolognese sauce.
+            </p>
+            <span class="menu-item-price">$10.99</span>
+            <a href="#" class="btn btn-primary add-btn" role="button"
+              >Order Now</a
+            >
+          </div>
 
-                    </div>
+          <div class="menu-item flow">
+            <img
+              src="/src/images/Rissoto.png"
+              alt="Risotto"
+              class="menu-item-image"
+            />
+            <h3 class="menu-item-title">Risotto</h3>
+            <p class="menu-item-description">
+              Creamy and flavorful risotto cooked to perfection.
+            </p>
+            <span class="menu-item-price">$12.99</span>
+            <a href="#" class="btn btn-primary add-btn" role="button"
+              >Order Now</a
+            >
+          </div>
 
-                    <div class="menu-item flow">
-                        <img src="/src/images/lasagna.png" alt="Lasagna" class="menu-item-image">
-                        <h3 class="menu-item-title">Lasagna</h3>
-                        <p class="menu-item-description">Layers of pasta, meat, and cheese baked to golden perfection.</p>
-                        <span class="menu-item-price">$14.99</span>
-                        <a href="#" class="btn btn-primary add-btn " role="button">Order Now</a>
+          <div class="menu-item flow">
+            <img
+              src="/src/images/lasagna.png"
+              alt="Lasagna"
+              class="menu-item-image"
+            />
+            <h3 class="menu-item-title">Lasagna</h3>
+            <p class="menu-item-description">
+              Layers of pasta, meat, and cheese baked to golden perfection.
+            </p>
+            <span class="menu-item-price">$14.99</span>
+            <a href="#" class="btn btn-primary add-btn" role="button"
+              >Order Now</a
+            >
+          </div>
 
-                    </div>
+          <div class="menu-item flow">
+            <img
+              src="/src/images/Spygate.png"
+              alt="Spaghetti Carbonara"
+              class="menu-item-image"
+            />
+            <h3 class="menu-item-title">Spaghetti Carbonara</h3>
+            <p class="menu-item-description">
+              Classic spaghetti dish with creamy sauce, bacon, and Parmesan
+              cheese.
+            </p>
+            <span class="menu-item-price">$11.99</span>
+            <a href="#" class="btn btn-primary add-btn" role="button"
+              >Order Now</a
+            >
+          </div>
 
-                    <div class="menu-item flow">
-                        <img src="/src/images/Spygate.png" alt="Spaghetti Carbonara" class="menu-item-image">
-                        <h3 class="menu-item-title">Spaghetti Carbonara</h3>
-                        <p class="menu-item-description">Classic spaghetti dish with creamy sauce, bacon, and Parmesan
-                            cheese.</p>
-                        <span class="menu-item-price">$11.99</span>
-                        <a href="#" class="btn btn-primary add-btn " role="button">Order Now</a>
+          <!-- Add more menu items here -->
+        </div>
+        <button class="btn btn-primary show-more-btn" type="button">
+          Show More Dishes
+        </button>
+      </section>
+    </section>
 
-                    </div>
-
-                    <!-- Add more menu items here -->
-                </div>
-                <button class="btn btn-primary show-more-btn" type="button">Show More Dishes</button>
-            </section>
-        </section>
-
-        <!-- testimonials -->
-        <section class="testimonials" id="testimonials">
+    <!-- testimonials -->
+    <section class="testimonials" id="testimonials">
             <h2 class="section__title">customer reviews</h2>
             <div class="container">
                 <div class="grid">
                 <div class="card_testimonials">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" class="Quotation" viewBox="0 0 448 512">
-                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
                         </div>
                     <div class="card_title">
@@ -146,7 +206,6 @@
                 <div class="card_testimonials">
                 <div class="container">
                     <svg xmlns="http://www.w3.org/2000/svg" class="Quotation" viewBox="0 0 448 512">
-                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
                 </div>
                 <div class="card_title">
@@ -169,7 +228,6 @@
             <div class="card_testimonials">
                 <div class="container">
                 <svg xmlns="http://www.w3.org/2000/svg" class="Quotation" viewBox="0 0 448 512">
-                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
                 </div>        
                 <div class="card_title">
@@ -191,23 +249,24 @@
             
                 </div>
             </div>
-        </section>
+        </section> 
 
-        <footer id="contact">
-            <section id="footer">
-                <div id="footer__address">
-                <h3>Catchy Pizza</h3>
-                <address>120 South 11th Street | LA<br>
-                291.2424.13142 | 212.334.212</address>
-                </div>
-                <div id="footer__media">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                </div>
-                <div id="footer__rights">all rights reserved 2024</div>
-            </section>
-        </footer>
-    </body>
+    <footer id="contact">
+      <section id="footer">
+        <div id="footer__address">
+          <h3>Catchy Pizza</h3>
+          <address>
+            120 South 11th Street | LA<br />
+            291.2424.13142 | 212.334.212
+          </address>
+        </div>
+        <div id="footer__media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <div id="footer__rights">all rights reserved 2024</div>
+      </section>
+    </footer>
+  </body>
 </html>
-
