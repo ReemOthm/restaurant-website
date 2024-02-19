@@ -26,7 +26,7 @@ a {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Cairo";
+  font-family: cursive;
   font-size: 22px;
 }
 
@@ -307,7 +307,7 @@ header {
 
 .testimonials {
   background: #f8f9fa;
-  padding: 6rem 0;
+  padding: 2rem 0;
   border-bottom: 1px solid #dee2e6;
   text-align: center;
   color: #333;
